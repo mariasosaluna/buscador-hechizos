@@ -1,1 +1,1 @@
-# buscador-hechizos
+# reactjs-boilerplate
