@@ -1,0 +1,27 @@
+.card {
+    padding: 2rem;
+    background-image: url(../assets/book-page.jpeg);
+    background-size: 100%;
+    border-radius: 5px;
+    margin: 1rem;
+    font-family: fantasy;
+  }
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+@media (max-width: 850px) {
+  .card-container {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-container {
+        grid-template-columns: 1fr;
+    }
+}

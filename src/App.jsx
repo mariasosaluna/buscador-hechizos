@@ -7,7 +7,7 @@ function App() {
       <main>
         <Outlet />
       </main>
-      <footer>footer</footer>
+      <footer>Hecho con ❤ por María</footer>
     </div>
   );
 }

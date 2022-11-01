@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { getData } from '../../services/service';
 import { NavLink } from 'react-router-dom';
+import { Card } from './card';
 
 const Search = () => {
   //variable de estado donde se almacena el filtrado delos elementos
@@ -10,8 +11,6 @@ const Search = () => {
   //llamada a la API
   const searchSpells = async () => {
     const data = await getData('hechizos');
-    console.log(data);
-    console.log(inputValue);
 
     // filtrado del json
     setFilteredElements(
@@ -30,24 +29,22 @@ const Search = () => {
 
   return (
     <div>
-      <div>
+      <div className="back">
         <NavLink to="/">volver</NavLink>
       </div>
-      <input
-        placeholder="busca tu hechizo"
-        onChange={(e) => setInputValue(e.target.value)}
-      />
+      <div>
+        <input
+          placeholder="busca tu hechizo"
+          onChange={(e) => setInputValue(e.target.value)}
+        />
+      </div>
       <button onClick={(e) => searchSpells(e)}>Buscar</button>
-      {filteredElements.map((element, index) => {
-        //mapeo de los elementos filtrados para pintar
-        return (
-          <div className="card" key={index}>
-            <h3>{element.hechizo}</h3>
-            <h5>{element.tipo}</h5>
-            <p>{element.uso}</p>
-          </div>
-        );
-      })}
+      <div className="card-container">
+        {filteredElements.map((element, index) => {
+          //mapeo de los elementos filtrados para pintar
+          return <Card key={index} {...element} />;
+        })}
+      </div>
     </div>
   );
 };
