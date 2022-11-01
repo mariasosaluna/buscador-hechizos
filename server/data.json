@@ -5,362 +5,434 @@
       {
         "id": 1,
         "hechizo": "Accio",
-        "uso": "Encanto de invocación"
+        "tipo": "Invocación",
+        "uso": "Permite atraer un objeto a las manos del lanzador, incluso a una distancia significativa."
       },
       {
         "id": 2,
         "hechizo": "Glisseo",
+        "tipo": "Transformación",
         "uso": "Convierte una escalera en un tobogán"
       },
       {
         "id": 3,
         "hechizo": "Impervius",
+        "tipo": "Protección",
         "uso": "Protege al lanzador de una variedad de sustancias, incluidos el agua y el fuego."
       },
       {
         "id": 4,
         "hechizo": "Wingardium Leviosa/Locomotor",
-        "uso": "Levita objetos"
+        "tipo": "Levitación",
+        "uso": "Hace levitar cualquier tipo de objeto"
       },
       {
         "id": 5,
         "hechizo": "Scourgify",
+        "tipo": "Conjuro de creación",
         "uso": "Limpia cosas"
       },
       {
         "id": 6,
         "hechizo": "Portus",
+        "tipo": "Conjuro de creación",
         "uso": "Crea un traslador"
       },
       {
         "id": 7,
         "hechizo": "Orchideous",
+        "tipo": "Conjuro de creación",
         "uso": "Crece flores desde el final de la varita"
       },
       {
         "id": 8,
         "hechizo": "Lumos",
-        "uso": "Hace que la varita emita luz"
+        "tipo": "Invocación",
+        "uso": "Hace que la varita emita luz, tiene una variante para povocar más intensidad de lus: Lumos Máxima"
       },
       {
         "id": 9,
         "hechizo": "Reparo",
+        "tipo": "Transformación",
         "uso": "Repara objetos rotos"
       },
       {
         "id": 10,
-        "hechizo": "Reducio",
-        "uso": "Contrae objetos"
+        "hechizo": "Reduccio",
+        "tipo": "Transformación",
+        "uso": "Contrae objetos, reduce su tamaño"
       },
       {
         "id": 11,
         "hechizo": "Pack",
+        "tipo": "Transformación",
         "uso": "Empaca baúles y equipaje"
       },
       {
         "id": 12,
         "hechizo": "Riddikulus",
-        "uso": "Transforma los Boggarts en una forma divertida"
+        "tipo": "Transformación",
+        "uso": "Transforma los Boggarts en una forma divertida para debilitarlos"
       },
       {
         "id": 13,
         "hechizo": "Protego",
-        "uso": "Protege al lanzador de las maldiciones"
+        "tipo": "Protección",
+        "uso": "Protege al lanzador de las maldiciones de los enemigos"
       },
       {
         "id": 14,
         "hechizo": "Muffliato",
-        "uso": "Evita que otras personas cercanas escuchen conversaciones"
+        "tipo": "Protección",
+        "uso": "Evita que otras personas cercanas escuchen conversaciones privadas"
       },
       {
         "id": 15,
         "hechizo": "Silencio/Langlock",
+        "tipo": "Protección",
         "uso": "Evita que alguien hable (pegando la lengua al paladar)"
       },
       {
         "id": 16,
         "hechizo": "Expelliarmus",
-        "uso": "Encanto de desarme"
+        "tipo": "Protección",
+        "uso": "Encanto de desarme. La varita del oponente sale volando por los aires"
       },
       {
         "id": 17,
         "hechizo": "Oblivate",
-        "uso": "Borra recuerdos"
+        "tipo": "Ataque",
+        "uso": "Borra todos los recuerdos, es un conjuro peligroso"
       },
       {
         "id": 18,
         "hechizo": "Episkey",
+        "tipo": "Conjuro de sanación",
         "uso": "Cura heridas leves"
       },
       {
         "id": 19,
         "hechizo": "Tergeo",
+        "tipo": "Conjuro de creación",
         "uso": "Limpia superficies"
       },
       {
         "id": 20,
         "hechizo": "Relashio",
+        "tipo": "Ataque",
         "uso": "Obliga al objetivo a soltar lo que sea que esté sosteniendo"
       },
       {
         "id": 21,
         "hechizo": "Confundo",
+        "tipo": "Ataque",
         "uso": "Causa confusiones y hace que otros sean fácilmente susceptibles a la influencia."
       },
       {
         "id": 22,
         "hechizo": "Expecto Patronum",
-        "uso": "Encanto Patronus"
+        "tipo": "Protección",
+        "uso": "Crea un patronus con forma de animal que te protege de los dementores. Necesitas avivar el conjuro con un recuerdo realmente feliz"
       },
       {
         "id": 23,
         "hechizo": "Ferula",
+        "tipo": "Conjuro de sanación",
         "uso": "Conjura vendajes"
       },
       {
         "id": 24,
         "hechizo": "Evanesco",
-        "uso": "Hechizo de desaparición"
+        "tipo": "Transformación",
+        "uso": "Hechizo para hacer desaparecer algo"
       },
       {
         "id": 25,
         "hechizo": "Alohomora",
+        "tipo": "Invocación",
         "uso": "Abre cerraduras"
       },
       {
         "id": 26,
         "hechizo": "Nox",
-        "uso": "Apaga lumos"
+        "tipo": "Invocación",
+        "uso": "Es el contrahechizo para lumos, apaga la luz de la varita"
       },
       {
         "id": 27,
         "hechizo": "Quietus",
-        "uso": "Silencia la voz mágicamente amplificada"
+        "tipo": "Invocación",
+        "uso": "Silencia la voz mágicamente amplificada por hechizo sonorus"
       },
       {
         "id": 28,
         "hechizo": "Incendio",
+        "tipo": "Invocación",
         "uso": "Crea fuego"
       },
       {
         "id": 29,
         "hechizo": "Homenum Revelio",
+        "tipo": "Protección",
         "uso": "Revelar personas cercanas"
       },
       {
         "id": 30,
         "hechizo": "Prior Incantato",
-        "uso": "Revela el último hechizo lanzado"
+        "tipo": "Invocación",
+        "uso": "Revela el último hechizo lanzado por la varita que señales"
       },
       {
         "id": 31,
         "hechizo": "Finite Incantatem",
-        "uso": "Niega los efectos de muchos hechizos."
+        "tipo": "Invocación",
+        "uso": "Desactiva los efectos de muchos hechizos."
       },
       {
         "id": 32,
         "hechizo": "Erecto",
+        "tipo": "Conjuro de creación",
         "uso": "Levanta carpas u otras estructuras."
       },
       {
         "id": 33,
         "hechizo": "Diffindo",
+        "tipo": "Transformación",
         "uso": "Corta o rasga material"
       },
       {
         "id": 34,
         "hechizo": "Stupefy",
+        "tipo": "Ataque",
         "uso": "Aturde al objetivo"
       },
       {
         "id": 35,
         "hechizo": "Repelo Muggletum",
+        "tipo": "Protección",
         "uso": "Repele Muggles"
       },
       {
         "id": 36,
         "hechizo": "Avada Kedavra",
-        "uso": "La maldición asesina"
+        "tipo": "Ataque",
+        "uso": "La maldición asesina. Su uso está prohibido, la muerte es instantánea."
       },
       {
         "id": 37,
         "hechizo": "Aguamenti",
-        "uso": "Dispara agua con la varita"
+        "tipo": "Conjuro de creación",
+        "uso": "Dispara agua con la varita. Puedes llenar recipientes con agua."
       },
       {
         "id": 38,
         "hechizo": "Geminio",
+        "tipo": "Conjuro de creación",
         "uso": "Crea un duplicado temporal y sin valor de cualquier objeto"
       },
       {
         "id": 39,
         "hechizo": "Locomotor Mortis",
+        "tipo": "Ataque",
         "uso": "Maldición de bloqueo de piernas"
       },
       {
         "id": 40,
         "hechizo": "Anapneo",
+        "tipo": "Protección",
         "uso": "Limpia las vías respiratorias de alguien"
       },
       {
         "id": 41,
         "hechizo": "Reducto",
+        "tipo": "Ataque",
         "uso": "Explota objeto"
       },
       {
         "id": 42,
         "hechizo": "Obscuro",
-        "uso": "Objetivo con los ojos vendados"
+        "tipo": "Ataque",
+        "uso": "Deja al objetivo con los ojos vendados"
       },
       {
         "id": 43,
         "hechizo": "Impedimenta",
+        "tipo": "Ataque",
         "uso": "Congela a alguien que avanza hacia ti"
       },
       {
         "id": 44,
         "hechizo": "Cave Inimicum/Protego Totalum",
+        "tipo": "Protección",
         "uso": "Fortalece las defensas de un área"
       },
       {
         "id": 45,
         "hechizo": "Meteolojinx Recanto",
+        "tipo": "Protección",
         "uso": "Acaba con los efectos de los hechizos meteorológicos"
       },
       {
         "id": 46,
         "hechizo": "Specialis Revelio",
+        "tipo": "Protección",
         "uso": "Revela propiedades mágicas ocultas en un objeto."
       },
       {
         "id": 47,
         "hechizo": "Descendo",
+        "tipo": "Levitación",
         "uso": "Mueve objetos hacia abajo"
       },
       {
         "id": 48,
         "hechizo": "Defodio",
+        "tipo": "Conjuro de creación",
         "uso": "Talla a través de la piedra y el acero"
       },
       {
         "id": 49,
         "hechizo": "Aparecium",
+        "tipo": "Conjuro de creación",
         "uso": "Hacer aparecer tinta invisible"
       },
       {
         "id": 50,
         "hechizo": "Piertotum Locomotor",
+        "tipo": "Protección",
         "uso": "Anima estatuas"
       },
       {
         "id": 51,
         "hechizo": "Imperio",
-        "uso": "Hace que el objetivo obedezca cada orden"
+        "tipo": "Ataque",
+        "uso": "Hace que el objetivo obedezca cada orden, es otra de las maldiciones prohibidas"
       },
       {
         "id": 52,
         "hechizo": "Fidelius Charm",
+        "tipo": "Protección",
         "uso": "Une un secreto al alma de un Guardián de Secretos"
       },
       {
         "id": 53,
         "hechizo": "Avis/Oppugno",
+        "tipo": "Ataque",
         "uso": "Dispara bandada de pájaros con varita"
       },
       {
         "id": 54,
         "hechizo": "Expulso",
+        "tipo": "Ataque",
         "uso": "Explota objetos"
       },
       {
         "id": 55,
         "hechizo": "Legilimens",
+        "tipo": "Protección",
         "uso": "Revela recuerdos y pensamientos del objetivo."
       },
       {
         "id": 56,
         "hechizo": "Duro",
+        "tipo": "Conjuro de creación",
         "uso": "Endurece los objetos"
       },
       {
         "id": 57,
         "hechizo": "Sonorus",
+        "tipo": "Transformación",
         "uso": "Amplifica la voz de uno"
       },
       {
         "id": 58,
         "hechizo": "Deprimo",
+        "tipo": "Ataque",
         "uso": "Crea una gran presión hacia abajo"
       },
       {
         "id": 59,
         "hechizo": "Levicorpus",
+        "tipo": "Ataque",
         "uso": "Levita el objetivo por el tobillo"
       },
       {
         "id": 60,
         "hechizo": "Liberacorpus",
+        "tipo": "Protección",
         "uso": "Reduce el objetivo de levicorpus"
       },
       {
         "id": 61,
         "hechizo": "Mobilicorpus",
+        "tipo": "Ataque",
         "uso": "Mueve cuerpos"
       },
       {
         "id": 62,
         "hechizo": "Confringo",
+        "tipo": "Ataque",
         "uso": "Explota objetos en llamas"
       },
       {
         "id": 63,
         "hechizo": "Densaugeo",
+        "tipo": "Transformación",
         "uso": "Hace que los dientes crezcan rápidamente"
       },
       {
         "id": 64,
         "hechizo": "Incarcarous",
+        "tipo": "Ataque",
         "uso": "Ata a alguien con cuerdas"
       },
       {
         "id": 65,
         "hechizo": "Deletrius",
+        "tipo": "Protección",
         "uso": "Descarta los efectos de Prior Incantato"
       },
       {
         "id": 66,
         "hechizo": "Rictusempra",
+        "tipo": "Ataque",
         "uso": "Encanto de cosquillas"
       },
       {
         "id": 67,
         "hechizo": "Petrificus Totalus",
-        "uso": "El objetivo de renderizado está completamente inmóvil"
+        "tipo": "Ataque",
+        "uso": "El objetivo se queda completamente inmóvil"
       },
       {
         "id": 68,
         "hechizo": "Fiendfyre Curse",
+        "tipo": "Ataque",
         "uso": "Hace fuego maldito"
       },
       {
         "id": 69,
         "hechizo": "Tarantallegra",
+        "tipo": "Ataque",
         "uso": "Obliga al objetivo a bailar"
       },
       {
         "id": 70,
         "hechizo": "Morsmordre",
+        "tipo": "Ataque",
         "uso": "Conjura la Marca Tenebrosa"
       },
       {
         "id": 71,
         "hechizo": "Sectumsempra",
+        "tipo": "Ataque",
         "uso": "Provoca laceraciones graves"
       },
       {
         "id": 72,
         "hechizo": "Crucio",
-        "uso": "Causa un dolor inmenso"
+        "tipo": "Ataque",
+        "uso": "Causa un dolor inmenso. Una de las tres maldiciones imperdonables, prohibidas."
       }
     ],
     "info": [
